@@ -1,0 +1,148 @@
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.list a{
+    color: black;
+    font-weight: 5px;
+}
+a:hover{
+    font-weight: bold;
+}
+.header{
+display: flex;
+}
+.nav{
+    margin-left: auto;
+}
+    
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    justify-content: space-between;
+    padding: 1.5rem;
+    
+}
+.intro{
+    font-size: 3.5rem;
+    color: rgb(91, 91, 209);
+}
+.name{
+    color: coral;
+}
+.para{
+    font-size: 15px;
+    color: grey;
+}
+button{
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+   border-radius: 5%;
+    background-color: tomato;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.area{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.area img{
+    width: 100%;
+    height: auto;
+}
+.next-area{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.next-area img{
+    width: 100%;
+    height: auto;
+}
+
+.align{
+    text-align: center;
+    font-size: 30px;
+}
+.work img{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.color{
+    color: coral;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.work-in img{
+    align-items: center;
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-left: 25%;
+}
+.working{
+    position: absolute;
+   top: 133rem;
+   left: 0;
+   width: 100%;
+   margin-left: 25%;
+   width: 300px;
+   height: 50px;
+}
+.working h3{
+    font-size: 30px;
+    margin-left: 3rem;
+    color: cornsilk;
+    font-weight: bold;
+}
+.working-2 button{
+    color: crimson;
+}
+.code{
+    position: absolute;
+   top: 135rem;
+   left: 0;
+   width: 100%;
+   margin-left: 55%;
+   width: 300px;
+   height: 50px;
+}
+.last{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+.last h2{
+    color: rgb(46, 46, 46);
+    font-size: 35px;
+}
+.last h3{
+    color: grey;
+    font-size: 25px;
+}
+.icon{
+    margin-left: 42%;
+}
+.icon img{
+   height: auto;
+    width: 40px;
+    margin: 10px;
+
+}
+#btn{
+    background-color: linear-gradient(rgb(241, 133, 10), rgb(255, 166, 0));
+    border-radius: 10px;
+}
